@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Registros - Ponto Eletrônico</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h1>Consulta de Registros de Ponto</h1>
+    <nav>
+        <a href="index.html">Voltar para Portaria</a>
+        <a href="cadastro.html">Cadastrar Funcionário</a>
+    </nav>
+
+    <div class="container-consulta">
+        <label for="selecao-funcionario">Selecione o Funcionário:</label>
+        <select id="selecao-funcionario">
+            <option value="">Carregando...</option>
+        </select>
+    </div>
+
+     <div id="area-mensagem-consulta" class="mensagem"></div>
+
+    <div id="exibicao-registros" class="container-registros">
+        <p>Selecione um funcionário para ver os registros.</p>
+    </div>
+
+    <script src="js/consulta_registros.js"></script>
+</body>
+</html>
